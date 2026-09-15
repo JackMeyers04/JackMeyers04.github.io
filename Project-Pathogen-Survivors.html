@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail | Pathogen Survivors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Fira+Code:wght@400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="project-page">
+
+    <nav>
+        <div class="container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Jack Meyers</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html#projects">Back to Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="project-header">
+            <div class="breadcrumb">Projects / Gameplay Systems</div>
+            <div class="project-title-row">
+                <h1>Pathogen Survivors</h1>
+                <div class="project-links">
+                    <!-- <a href="#" class="sidebar-link">GitHub Repository</a>
+                    <a href="/GodotGame/index.html" class="sidebar-link">Live Demo</a> -->
+                </div>
+            </div>
+            <div class="project-meta">
+                <span><strong>Role:</strong> AI Programmer</span>
+                <span><strong>Duration:</strong> 6/2026 - Current</span>
+                <span><strong>Software:</strong> Godot</span>
+            </div>
+        </header>
+
+        <section class="project-hero-image">
+            <div class="image-container">
+                <div class="photo-container">
+                    <img src="/Assets/PathogenSurvivorsSS/e_coli.png" alt="Failed To Load">
+                    <img src="/Assets/PathogenSurvivorsSS/e_flu.png" alt="Failed To Load">
+                    <img src="/Assets/PathogenSurvivorsSS/e_strep.png" alt="Failed To Load">
+                </div>
+            </div>
+        </section>
+
+        <div class="project-content">
+            <article class="project-description">
+                <h2>Project Overview</h2>
+                    <p>Pathogen Panic is a browser based 2d shooter with interactive learning experiences about pathogens, antibiotics, and vaccines<p>
+
+
+                <h2>My Job</h2>
+                <p>In this project, It was my job to develop the enemy AI and their functions such as the E-Coli enemy's pack hunting behavior, the Influenza enemy's infection behavior, and the Streptococcus enemy's debugging behaviors.</p>
+
+                <!--
+                             <div class="code-block">
+                    <div class="code-header">Implementation Detail.cpp</div>
+                    <pre><code>// Example of a technical solution
+void ProjectSystem::Initialize() {
+    if (!IsConfigured) {
+        SetupStateTree();
+        Log("System online.");
+    }
+    
+}</code></pre>
+                </div>
+                -->
+
+                <h2>Key Features</h2>
+                <div class = "key-features">
+                <ul>
+                    <li><strong>EColi</strong>
+                    <ul>
+                        <li><strong>Ecoli attack healthy cells together in a pack.</strong></li>
+                        <li><strong>After Ecoli Feed enough they split multiplying into more Ecoli.</strong></li>
+                    </ul>
+                    </li>
+                    <li><strong>Streptococcus</strong>
+                    <ul>
+                        <li><strong>Streptococcus cirlces around a healthy cell debugging it by making it take extra damage from EColi.</strong></li>
+                        <li><strong>If A Streptococcus comes near another one it combines leveling it up increasing its debuff percentage.</strong></li>
+                    </ul>
+                    </li>
+                    <li><strong>Influenza</strong>
+                    <ul>
+                        <li><strong>Influenza attacks the player when close enough it takes over the player for 3 seconds stopping it from attacking for that durration.<strong></li>
+                        <li><strong>Influenza can only be killed by one specific antibiotic.</strong></li>
+                    </ul>
+                    </li>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="copyright">&copy; 2026 Jack Meyers</p>
+        </div>
+    </footer>
+
+    <script src="lightbox.js"></script>
+</body>
+
+</html>
